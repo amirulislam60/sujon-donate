@@ -23,6 +23,19 @@ body {
     align-items: center;
 }
 
+.flexible .text{
+    width: 50%;
+}
+
+.flexible .images{
+    width: 50%;
+}
+
+.flexible .images img{
+    width: 100%;
+    background-size: cover;    
+}
+
 .content {
     text-align: center;
 
@@ -184,7 +197,6 @@ body {
 
 .text p {
     font-size: 18px;
-    width: 50%;
     padding: 10px 10px;
     margin: 5%;
 }
@@ -194,16 +206,21 @@ body {
     height: 550px;
 }
 
+#special{
+    background: rgba(255, 99, 71, 0.55);
+    color: gray;
+    border: 1px solid tomato;
+}
+
 .donation-button {
-    margin: 20%;
     padding: 15px;
     text-decoration: none;
-    width: 50%;
     border: none;
-    margin-top: 100px;
     border-radius: 4px;
     font-size: 18px;
+    text-align: center;
     background: brown;
+    margin-left: 6%;
 
 }
 
